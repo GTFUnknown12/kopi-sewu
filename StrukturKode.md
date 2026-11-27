@@ -10,7 +10,7 @@ kopi sewu/
 │ └── src/
 │ ├── main.jsx ← menyalakan React
 │ ├── App.jsx ← daftar halaman (rute): / , /admin, /staf
-│ ├── index.css ← warna & font dari Figma (design tokens)
+│ ├── index.css ← warna & font saya :v
 │ ├── pages/
 │ │ ├── Login.jsx
 │ │ ├── StaffPlaceholder.jsx ← sementara
