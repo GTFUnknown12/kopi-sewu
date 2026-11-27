@@ -1,0 +1,1347 @@
+{
+  "meta": {
+    "generated_at": "2026-11-21 14:40:12",
+    "data_label": "DATA SINTETIS (SIMULASI CAPSTONE)",
+    "model_name": "Ridge Regression (alpha=5.0)",
+    "model_artifact": "data-science/models/cup_demand_forecaster.joblib",
+    "training_period": "2026-08-01 s.d. 2026-10-31 (602 shift)",
+    "safety_buffer_cups": 17,
+    "safety_buffer_method": "ceil(1.28 * Test_RMSE) untuk target ~90% service level anti-kehabisan stok"
+  },
+  "evaluation_summary": {
+    "validation_split": "2026-10-01 s.d. 2026-10-15 (n=100)",
+    "test_split": "2026-10-16 s.d. 2026-10-31 (n=105)",
+    "test_mae_cups": 9.63,
+    "test_mae_95ci": [
+      8.16,
+      11.27
+    ],
+    "test_rmse_cups": 12.84,
+    "test_rmse_95ci": [
+      10.27,
+      15.58
+    ],
+    "test_r2": 0.7435,
+    "naive_baseline_test_mae_cups": 12.61,
+    "mae_improvement_vs_naive_pct": 23.6,
+    "stock_coverage_test_all_pct": 93.3,
+    "stock_coverage_test_nonbulk_pct": 96.9
+  },
+  "model_limitations": [
+    "Dilatih pada 92 hari data operasional sintetis; belum mencakup musim liburan panjang, Ramadan/Lebaran, atau event lokal khusus Kota Batam.",
+    "Pesanan bulk_order dadakan (15–35 cup) tidak dapat diprediksi dari jadwal rutin; pemilik tetap disarankan mencatat pre-order acara secara terpisah.",
+    "Memerlukan retraining berkala setiap 2–4 minggu begitu data transaksi riil Kopi Sewu mulai terkumpul di PostgreSQL."
+  ],
+  "forecast_next_7_days": [
+    {
+      "date": "2026-11-01",
+      "day_name": "Minggu",
+      "is_weekend": true,
+      "is_payday": true,
+      "total_predicted_cups_cerah": 381,
+      "total_recommended_stock_cerah": 483,
+      "total_predicted_cups_hujan": 279,
+      "total_recommended_stock_hujan": 381,
+      "shifts": [
+        {
+          "cart_id": "CRT-00",
+          "cart_name": "Outlet Kopi Sewu Tiban",
+          "location_id": "LOC-01",
+          "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+          "shift_window": "08:00-22:00",
+          "predicted_cups_cerah": 99,
+          "recommended_stock_cerah": 116,
+          "predicted_cups_hujan": 89,
+          "recommended_stock_hujan": 106,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-01",
+          "cart_name": "Gerobak Sewu 01",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "09:00-20:00",
+          "predicted_cups_cerah": 74,
+          "recommended_stock_cerah": 91,
+          "predicted_cups_hujan": 56,
+          "recommended_stock_hujan": 73,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-03",
+          "location_name": "STC Sekupang (Sungai Harapan)",
+          "shift_window": "07:00-12:00",
+          "predicted_cups_cerah": 31,
+          "recommended_stock_cerah": 48,
+          "predicted_cups_hujan": 12,
+          "recommended_stock_hujan": 29,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "15:00-20:00",
+          "predicted_cups_cerah": 46,
+          "recommended_stock_cerah": 63,
+          "predicted_cups_hujan": 28,
+          "recommended_stock_hujan": 45,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-03",
+          "cart_name": "Gerobak Sewu 03",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "14:00-21:00",
+          "predicted_cups_cerah": 73,
+          "recommended_stock_cerah": 90,
+          "predicted_cups_hujan": 55,
+          "recommended_stock_hujan": 72,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "15:00-21:00",
+          "predicted_cups_cerah": 58,
+          "recommended_stock_cerah": 75,
+          "predicted_cups_hujan": 39,
+          "recommended_stock_hujan": 56,
+          "needs_midshift_restock_cerah": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "day_name": "Senin",
+      "is_weekend": false,
+      "is_payday": true,
+      "total_predicted_cups_cerah": 400,
+      "total_recommended_stock_cerah": 519,
+      "total_predicted_cups_hujan": 282,
+      "total_recommended_stock_hujan": 401,
+      "shifts": [
+        {
+          "cart_id": "CRT-00",
+          "cart_name": "Outlet Kopi Sewu Tiban",
+          "location_id": "LOC-01",
+          "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+          "shift_window": "08:00-22:00",
+          "predicted_cups_cerah": 79,
+          "recommended_stock_cerah": 96,
+          "predicted_cups_hujan": 69,
+          "recommended_stock_hujan": 86,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-01",
+          "cart_name": "Gerobak Sewu 01",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "09:00-20:00",
+          "predicted_cups_cerah": 69,
+          "recommended_stock_cerah": 86,
+          "predicted_cups_hujan": 51,
+          "recommended_stock_hujan": 68,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-04",
+          "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 52,
+          "recommended_stock_cerah": 69,
+          "predicted_cups_hujan": 34,
+          "recommended_stock_hujan": 51,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "15:00-19:00",
+          "predicted_cups_cerah": 34,
+          "recommended_stock_cerah": 51,
+          "predicted_cups_hujan": 16,
+          "recommended_stock_hujan": 33,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-03",
+          "cart_name": "Gerobak Sewu 03",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "08:00-18:00",
+          "predicted_cups_cerah": 76,
+          "recommended_stock_cerah": 93,
+          "predicted_cups_hujan": 58,
+          "recommended_stock_hujan": 75,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-06",
+          "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 46,
+          "recommended_stock_cerah": 63,
+          "predicted_cups_hujan": 28,
+          "recommended_stock_hujan": 45,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "15:00-20:00",
+          "predicted_cups_cerah": 44,
+          "recommended_stock_cerah": 61,
+          "predicted_cups_hujan": 26,
+          "recommended_stock_hujan": 43,
+          "needs_midshift_restock_cerah": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "day_name": "Selasa",
+      "is_weekend": false,
+      "is_payday": true,
+      "total_predicted_cups_cerah": 400,
+      "total_recommended_stock_cerah": 519,
+      "total_predicted_cups_hujan": 282,
+      "total_recommended_stock_hujan": 401,
+      "shifts": [
+        {
+          "cart_id": "CRT-00",
+          "cart_name": "Outlet Kopi Sewu Tiban",
+          "location_id": "LOC-01",
+          "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+          "shift_window": "08:00-22:00",
+          "predicted_cups_cerah": 79,
+          "recommended_stock_cerah": 96,
+          "predicted_cups_hujan": 69,
+          "recommended_stock_hujan": 86,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-01",
+          "cart_name": "Gerobak Sewu 01",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "09:00-20:00",
+          "predicted_cups_cerah": 69,
+          "recommended_stock_cerah": 86,
+          "predicted_cups_hujan": 51,
+          "recommended_stock_hujan": 68,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-04",
+          "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 52,
+          "recommended_stock_cerah": 69,
+          "predicted_cups_hujan": 34,
+          "recommended_stock_hujan": 51,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "15:00-19:00",
+          "predicted_cups_cerah": 34,
+          "recommended_stock_cerah": 51,
+          "predicted_cups_hujan": 16,
+          "recommended_stock_hujan": 33,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-03",
+          "cart_name": "Gerobak Sewu 03",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "08:00-18:00",
+          "predicted_cups_cerah": 76,
+          "recommended_stock_cerah": 93,
+          "predicted_cups_hujan": 58,
+          "recommended_stock_hujan": 75,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-06",
+          "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 46,
+          "recommended_stock_cerah": 63,
+          "predicted_cups_hujan": 28,
+          "recommended_stock_hujan": 45,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "15:00-20:00",
+          "predicted_cups_cerah": 44,
+          "recommended_stock_cerah": 61,
+          "predicted_cups_hujan": 26,
+          "recommended_stock_hujan": 43,
+          "needs_midshift_restock_cerah": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "day_name": "Rabu",
+      "is_weekend": false,
+      "is_payday": false,
+      "total_predicted_cups_cerah": 358,
+      "total_recommended_stock_cerah": 477,
+      "total_predicted_cups_hujan": 239,
+      "total_recommended_stock_hujan": 358,
+      "shifts": [
+        {
+          "cart_id": "CRT-00",
+          "cart_name": "Outlet Kopi Sewu Tiban",
+          "location_id": "LOC-01",
+          "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+          "shift_window": "08:00-22:00",
+          "predicted_cups_cerah": 73,
+          "recommended_stock_cerah": 90,
+          "predicted_cups_hujan": 62,
+          "recommended_stock_hujan": 79,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-01",
+          "cart_name": "Gerobak Sewu 01",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "09:00-20:00",
+          "predicted_cups_cerah": 63,
+          "recommended_stock_cerah": 80,
+          "predicted_cups_hujan": 45,
+          "recommended_stock_hujan": 62,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-04",
+          "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 46,
+          "recommended_stock_cerah": 63,
+          "predicted_cups_hujan": 28,
+          "recommended_stock_hujan": 45,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "15:00-19:00",
+          "predicted_cups_cerah": 28,
+          "recommended_stock_cerah": 45,
+          "predicted_cups_hujan": 10,
+          "recommended_stock_hujan": 27,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-03",
+          "cart_name": "Gerobak Sewu 03",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "08:00-18:00",
+          "predicted_cups_cerah": 70,
+          "recommended_stock_cerah": 87,
+          "predicted_cups_hujan": 52,
+          "recommended_stock_hujan": 69,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-06",
+          "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 40,
+          "recommended_stock_cerah": 57,
+          "predicted_cups_hujan": 22,
+          "recommended_stock_hujan": 39,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "15:00-20:00",
+          "predicted_cups_cerah": 38,
+          "recommended_stock_cerah": 55,
+          "predicted_cups_hujan": 20,
+          "recommended_stock_hujan": 37,
+          "needs_midshift_restock_cerah": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "day_name": "Kamis",
+      "is_weekend": false,
+      "is_payday": false,
+      "total_predicted_cups_cerah": 358,
+      "total_recommended_stock_cerah": 477,
+      "total_predicted_cups_hujan": 239,
+      "total_recommended_stock_hujan": 358,
+      "shifts": [
+        {
+          "cart_id": "CRT-00",
+          "cart_name": "Outlet Kopi Sewu Tiban",
+          "location_id": "LOC-01",
+          "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+          "shift_window": "08:00-22:00",
+          "predicted_cups_cerah": 73,
+          "recommended_stock_cerah": 90,
+          "predicted_cups_hujan": 62,
+          "recommended_stock_hujan": 79,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-01",
+          "cart_name": "Gerobak Sewu 01",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "09:00-20:00",
+          "predicted_cups_cerah": 63,
+          "recommended_stock_cerah": 80,
+          "predicted_cups_hujan": 45,
+          "recommended_stock_hujan": 62,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-04",
+          "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 46,
+          "recommended_stock_cerah": 63,
+          "predicted_cups_hujan": 28,
+          "recommended_stock_hujan": 45,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "15:00-19:00",
+          "predicted_cups_cerah": 28,
+          "recommended_stock_cerah": 45,
+          "predicted_cups_hujan": 10,
+          "recommended_stock_hujan": 27,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-03",
+          "cart_name": "Gerobak Sewu 03",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "08:00-18:00",
+          "predicted_cups_cerah": 70,
+          "recommended_stock_cerah": 87,
+          "predicted_cups_hujan": 52,
+          "recommended_stock_hujan": 69,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-06",
+          "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 40,
+          "recommended_stock_cerah": 57,
+          "predicted_cups_hujan": 22,
+          "recommended_stock_hujan": 39,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "15:00-20:00",
+          "predicted_cups_cerah": 38,
+          "recommended_stock_cerah": 55,
+          "predicted_cups_hujan": 20,
+          "recommended_stock_hujan": 37,
+          "needs_midshift_restock_cerah": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "day_name": "Jumat",
+      "is_weekend": false,
+      "is_payday": false,
+      "total_predicted_cups_cerah": 358,
+      "total_recommended_stock_cerah": 477,
+      "total_predicted_cups_hujan": 240,
+      "total_recommended_stock_hujan": 359,
+      "shifts": [
+        {
+          "cart_id": "CRT-00",
+          "cart_name": "Outlet Kopi Sewu Tiban",
+          "location_id": "LOC-01",
+          "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+          "shift_window": "08:00-22:00",
+          "predicted_cups_cerah": 73,
+          "recommended_stock_cerah": 90,
+          "predicted_cups_hujan": 63,
+          "recommended_stock_hujan": 80,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-01",
+          "cart_name": "Gerobak Sewu 01",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "09:00-20:00",
+          "predicted_cups_cerah": 63,
+          "recommended_stock_cerah": 80,
+          "predicted_cups_hujan": 45,
+          "recommended_stock_hujan": 62,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-04",
+          "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 46,
+          "recommended_stock_cerah": 63,
+          "predicted_cups_hujan": 28,
+          "recommended_stock_hujan": 45,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "15:00-19:00",
+          "predicted_cups_cerah": 28,
+          "recommended_stock_cerah": 45,
+          "predicted_cups_hujan": 10,
+          "recommended_stock_hujan": 27,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-03",
+          "cart_name": "Gerobak Sewu 03",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "08:00-18:00",
+          "predicted_cups_cerah": 70,
+          "recommended_stock_cerah": 87,
+          "predicted_cups_hujan": 52,
+          "recommended_stock_hujan": 69,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-06",
+          "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+          "shift_window": "09:00-14:00",
+          "predicted_cups_cerah": 40,
+          "recommended_stock_cerah": 57,
+          "predicted_cups_hujan": 22,
+          "recommended_stock_hujan": 39,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "15:00-20:00",
+          "predicted_cups_cerah": 38,
+          "recommended_stock_cerah": 55,
+          "predicted_cups_hujan": 20,
+          "recommended_stock_hujan": 37,
+          "needs_midshift_restock_cerah": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "day_name": "Sabtu",
+      "is_weekend": true,
+      "is_payday": false,
+      "total_predicted_cups_cerah": 343,
+      "total_recommended_stock_cerah": 445,
+      "total_predicted_cups_hujan": 242,
+      "total_recommended_stock_hujan": 344,
+      "shifts": [
+        {
+          "cart_id": "CRT-00",
+          "cart_name": "Outlet Kopi Sewu Tiban",
+          "location_id": "LOC-01",
+          "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+          "shift_window": "08:00-22:00",
+          "predicted_cups_cerah": 93,
+          "recommended_stock_cerah": 110,
+          "predicted_cups_hujan": 83,
+          "recommended_stock_hujan": 100,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-01",
+          "cart_name": "Gerobak Sewu 01",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "09:00-20:00",
+          "predicted_cups_cerah": 68,
+          "recommended_stock_cerah": 85,
+          "predicted_cups_hujan": 50,
+          "recommended_stock_hujan": 67,
+          "needs_midshift_restock_cerah": true
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-03",
+          "location_name": "STC Sekupang (Sungai Harapan)",
+          "shift_window": "07:00-12:00",
+          "predicted_cups_cerah": 24,
+          "recommended_stock_cerah": 41,
+          "predicted_cups_hujan": 6,
+          "recommended_stock_hujan": 23,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-02",
+          "cart_name": "Gerobak Sewu 02",
+          "location_id": "LOC-02",
+          "location_name": "Tiban Centre (Jl. Gajah Mada)",
+          "shift_window": "15:00-20:00",
+          "predicted_cups_cerah": 40,
+          "recommended_stock_cerah": 57,
+          "predicted_cups_hujan": 21,
+          "recommended_stock_hujan": 38,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-03",
+          "cart_name": "Gerobak Sewu 03",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "14:00-21:00",
+          "predicted_cups_cerah": 67,
+          "recommended_stock_cerah": 84,
+          "predicted_cups_hujan": 49,
+          "recommended_stock_hujan": 66,
+          "needs_midshift_restock_cerah": false
+        },
+        {
+          "cart_id": "CRT-04",
+          "cart_name": "Gerobak Sewu 04",
+          "location_id": "LOC-05",
+          "location_name": "Alun-Alun Engku Putri Batam Centre",
+          "shift_window": "15:00-21:00",
+          "predicted_cups_cerah": 51,
+          "recommended_stock_cerah": 68,
+          "predicted_cups_hujan": 33,
+          "recommended_stock_hujan": 50,
+          "needs_midshift_restock_cerah": false
+        }
+      ]
+    }
+  ],
+  "scenario_matrix": [
+    {
+      "cart_id": "CRT-00",
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "shift_window": "08:00-22:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 73,
+      "recommended_cup_stock": 90
+    },
+    {
+      "cart_id": "CRT-00",
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "shift_window": "08:00-22:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 69,
+      "recommended_cup_stock": 86
+    },
+    {
+      "cart_id": "CRT-00",
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "shift_window": "08:00-22:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 62,
+      "recommended_cup_stock": 79
+    },
+    {
+      "cart_id": "CRT-00",
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "shift_window": "08:00-22:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 93,
+      "recommended_cup_stock": 110
+    },
+    {
+      "cart_id": "CRT-00",
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "shift_window": "08:00-22:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 90,
+      "recommended_cup_stock": 107
+    },
+    {
+      "cart_id": "CRT-00",
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "shift_window": "08:00-22:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 83,
+      "recommended_cup_stock": 100
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "09:00-20:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 63,
+      "recommended_cup_stock": 80
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "09:00-20:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 59,
+      "recommended_cup_stock": 76
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "09:00-20:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 45,
+      "recommended_cup_stock": 62
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "09:00-20:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 68,
+      "recommended_cup_stock": 85
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "09:00-20:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 64,
+      "recommended_cup_stock": 81
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "09:00-20:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 50,
+      "recommended_cup_stock": 67
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "08:00-19:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 45,
+      "recommended_cup_stock": 62
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "08:00-19:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 41,
+      "recommended_cup_stock": 58
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "08:00-19:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 27,
+      "recommended_cup_stock": 44
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "08:00-19:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 45,
+      "recommended_cup_stock": 62
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "08:00-19:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 41,
+      "recommended_cup_stock": 58
+    },
+    {
+      "cart_id": "CRT-01",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "08:00-19:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 27,
+      "recommended_cup_stock": 44
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 46,
+      "recommended_cup_stock": 63
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 42,
+      "recommended_cup_stock": 59
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 28,
+      "recommended_cup_stock": 45
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 12,
+      "recommended_cup_stock": 29
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 8,
+      "recommended_cup_stock": 25
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 1,
+      "recommended_cup_stock": 18
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "15:00-19:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 28,
+      "recommended_cup_stock": 45
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "15:00-19:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 24,
+      "recommended_cup_stock": 41
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "15:00-19:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 10,
+      "recommended_cup_stock": 27
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "15:00-19:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 33,
+      "recommended_cup_stock": 50
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "15:00-19:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 29,
+      "recommended_cup_stock": 46
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "shift_window": "15:00-19:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 15,
+      "recommended_cup_stock": 32
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "07:00-12:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 25,
+      "recommended_cup_stock": 42
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "07:00-12:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 21,
+      "recommended_cup_stock": 38
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "07:00-12:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 7,
+      "recommended_cup_stock": 24
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "07:00-12:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 24,
+      "recommended_cup_stock": 41
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "07:00-12:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 20,
+      "recommended_cup_stock": 37
+    },
+    {
+      "cart_id": "CRT-02",
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "shift_window": "07:00-12:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 6,
+      "recommended_cup_stock": 23
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 70,
+      "recommended_cup_stock": 87
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 66,
+      "recommended_cup_stock": 83
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 52,
+      "recommended_cup_stock": 69
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 78,
+      "recommended_cup_stock": 95
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 74,
+      "recommended_cup_stock": 91
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 60,
+      "recommended_cup_stock": 77
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 70,
+      "recommended_cup_stock": 87
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 66,
+      "recommended_cup_stock": 83
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 52,
+      "recommended_cup_stock": 69
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 34,
+      "recommended_cup_stock": 51
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 30,
+      "recommended_cup_stock": 47
+    },
+    {
+      "cart_id": "CRT-03",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "08:00-18:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 16,
+      "recommended_cup_stock": 33
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 40,
+      "recommended_cup_stock": 57
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 36,
+      "recommended_cup_stock": 53
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 22,
+      "recommended_cup_stock": 39
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 9,
+      "recommended_cup_stock": 26
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 5,
+      "recommended_cup_stock": 22
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "shift_window": "09:00-14:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 1,
+      "recommended_cup_stock": 18
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 38,
+      "recommended_cup_stock": 55
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 34,
+      "recommended_cup_stock": 51
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 20,
+      "recommended_cup_stock": 37
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 45,
+      "recommended_cup_stock": 62
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 41,
+      "recommended_cup_stock": 58
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 27,
+      "recommended_cup_stock": 44
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekday",
+      "weather": "Cerah",
+      "predicted_cups": 25,
+      "recommended_cup_stock": 42
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekday",
+      "weather": "Berawan",
+      "predicted_cups": 21,
+      "recommended_cup_stock": 38
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekday",
+      "weather": "Hujan",
+      "predicted_cups": 7,
+      "recommended_cup_stock": 24
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekend",
+      "weather": "Cerah",
+      "predicted_cups": 1,
+      "recommended_cup_stock": 18
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekend",
+      "weather": "Berawan",
+      "predicted_cups": 1,
+      "recommended_cup_stock": 18
+    },
+    {
+      "cart_id": "CRT-04",
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "shift_window": "15:00-20:00",
+      "day_type": "weekend",
+      "weather": "Hujan",
+      "predicted_cups": 1,
+      "recommended_cup_stock": 18
+    }
+  ]
+}

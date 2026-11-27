@@ -1,0 +1,15 @@
+menu_id,category,menu_name,unit_type,price,hpp_asumsi,image_filename,image_gdrive_url,is_available,price_source,hpp_source
+MNU-01,Kopi,Butterscotch,cup,18000,8500,butterscotch.jpeg,https://drive.google.com/file/d/1Qk8ANUc1KEQpKWmaXTIyD57Xn5qutoLG/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-02,Kopi,Kopi Susu,cup,15000,6800,kopi susu.jpeg,https://drive.google.com/file/d/1vFED9hUBr_SJOSLa5rRdHzT5Ey785H5l/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-03,Kopi,Americano,cup,15000,5500,americano.jpeg,https://drive.google.com/file/d/1nI84_NxWEbcGHOzmDzW17WDKTN56khdw/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-04,Kopi,Sunkisst Americano,cup,18000,8000,sunkisst_americano.jpeg,https://drive.google.com/file/d/1dTfRQQ6c6C5oXHNbI-OgbvYLXR62h2e6/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-05,Kopi,Lemon Coffee,cup,18000,7800,lemon_coffee.jpeg,https://drive.google.com/file/d/1cnFUUmv2iiwkGO55Ek-x12QjJS8xQL_o/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-06,Kopi,Caramel Macchiato,cup,18000,8800,caramel macchiato.jpeg,https://drive.google.com/file/d/10Tp9HCD80FmJuBdsJaK97MEt6leYXrEj/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-07,Kopi,Kopi Aren,cup,18000,8000,kopi aren.jpeg,https://drive.google.com/file/d/1QqJVMsbQe6IoCfFP-iBm8djNIeGfe9aU/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-08,Kopi,Kopi Sewu Signature,cup,18000,8500,kopi_sewu_signature.jpeg,https://drive.google.com/file/d/1uJmUZzlsfDoo63rV9vErfAD1ngNxhCkw/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-09,Non Kopi,Strawberry Matcha Latte,cup,20000,10200,strawberry_matcha_latte.jpeg,https://drive.google.com/file/d/1jNqx7cgelMOpS_wwhU-UdlZwTEtVFpy5/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-10,Non Kopi,Classic Dark Choco,cup,16000,7500,classic_Dark_choco.jpeg,https://drive.google.com/file/d/1VJBoWFSYbK6zqgtNnx9mfFjHORK36SwZ/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-11,Non Kopi,Chocoberry,cup,20000,10000,chocoberry.jpeg,https://drive.google.com/file/d/1_r5AjF68OSNAUHQDYaoDgnk05CRUl9-Y/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-12,Non Kopi,Matcha Latte,cup,16000,7800,matcha_latte.jpeg,https://drive.google.com/file/d/1VxvOdW-xEo1fqoShmjMEn7YUMt7KoQsy/view?usp=drivesdk,True,primer_umkm,asumsi_tim_ds
+MNU-13,Botolan,Botolan 1 Liter,botol,75000,36000,Botolan_1L.jpeg,https://drive.google.com/file/d/11EUeT6YGTzrLxMJf4NhQKiPtFRgKy_Yh/view?usp=sharing,True,primer_umkm,asumsi_tim_ds
+MNU-14,Botolan,Botolan 250 ml,botol,25000,12000,Botolan_250ml.jpeg,https://drive.google.com/file/d/1pe6RWr9_Jb7aHQc2Gy2YCTCZpDOmXe5k/view?usp=sharing,True,primer_umkm,asumsi_tim_ds

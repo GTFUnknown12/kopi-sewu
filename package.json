@@ -1,0 +1,13 @@
+{
+  "name": "karsa-kopi-sewu",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Capstone Asah 2026 A26-CS267 (Karsa) - Dasbor & POS Kopi Sewu (monorepo decoupled: frontend + backend)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:be": "npm --prefix backend run dev",
+    "dev:fe": "npm --prefix frontend run dev",
+    "build:fe": "npm --prefix frontend run build",
+    "start:be": "npm --prefix backend start"
+  }
+}

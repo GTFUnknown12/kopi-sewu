@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-11-21 14:40:19",
+  "status": "PASSED_ALL_CROSS_CHECKS_100_PCT",
+  "fs_json_files": [
+    "dashboard_summary.json",
+    "locations_and_carts.json",
+    "peak_hours.json",
+    "top_menus.json",
+    "reconciliation.json",
+    "demand_forecast.json"
+  ],
+  "fs_db_seed_counts": {
+    "01_locations.csv": 6,
+    "02_carts.csv": 5,
+    "03_menu.csv": 14,
+    "04_shifts.csv": 602,
+    "05_transactions.csv": 19886
+  },
+  "ae_context_file": "ai_context_summary.json",
+  "ae_rag_documents_count": 11,
+  "verified_totals": {
+    "revenue_idr": 537951000,
+    "cups_sold": 29443,
+    "bottles_sold": 744,
+    "transactions": 19886,
+    "shifts": 602
+  }
+}

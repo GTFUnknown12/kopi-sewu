@@ -1,0 +1,1536 @@
+{
+  "meta": {
+    "start_date": "2026-08-01",
+    "end_date": "2026-10-31",
+    "data_label": "DATA SINTETIS (SIMULASI CAPSTONE)",
+    "generated_at": "2026-11-21 14:40:19"
+  },
+  "heatmap": [
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 8,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 1.08,
+      "avg_cups_per_shift_hour": 1.72
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 9,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 1.88,
+      "avg_cups_per_shift_hour": 2.66
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 10,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 2.28,
+      "avg_cups_per_shift_hour": 3.22
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 11,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 2.58,
+      "avg_cups_per_shift_hour": 3.32
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 12,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 2.89,
+      "avg_cups_per_shift_hour": 4.25
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 13,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 2.42,
+      "avg_cups_per_shift_hour": 3.4
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 14,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 2.2,
+      "avg_cups_per_shift_hour": 3.45
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 15,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 2.51,
+      "avg_cups_per_shift_hour": 3.28
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 16,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 4.08,
+      "avg_cups_per_shift_hour": 6.09
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 17,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 5.06,
+      "avg_cups_per_shift_hour": 7.42
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 18,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 5.28,
+      "avg_cups_per_shift_hour": 8.88
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 19,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 6.37,
+      "avg_cups_per_shift_hour": 8.71
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 20,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 6.42,
+      "avg_cups_per_shift_hour": 9.26
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekday",
+      "hour": 21,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 3.46,
+      "avg_cups_per_shift_hour": 5.8
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 8,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 1.96,
+      "avg_cups_per_shift_hour": 3.0
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 9,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 1.93,
+      "avg_cups_per_shift_hour": 3.19
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 10,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 2.48,
+      "avg_cups_per_shift_hour": 3.33
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 11,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 3.11,
+      "avg_cups_per_shift_hour": 4.37
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 12,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 3.52,
+      "avg_cups_per_shift_hour": 5.93
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 13,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 3.44,
+      "avg_cups_per_shift_hour": 5.74
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 14,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 2.7,
+      "avg_cups_per_shift_hour": 3.7
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 15,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 3.37,
+      "avg_cups_per_shift_hour": 5.0
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 16,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 5.3,
+      "avg_cups_per_shift_hour": 8.41
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 17,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 6.44,
+      "avg_cups_per_shift_hour": 9.41
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 18,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 7.63,
+      "avg_cups_per_shift_hour": 11.15
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 19,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 7.74,
+      "avg_cups_per_shift_hour": 11.0
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 20,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 7.74,
+      "avg_cups_per_shift_hour": 11.63
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "zone_type": "outlet_olahraga_komunitas",
+      "day_type": "weekend",
+      "hour": 21,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 5.3,
+      "avg_cups_per_shift_hour": 8.04
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 9,
+      "active_shift_hours": 53,
+      "avg_transactions_per_shift_hour": 2.23,
+      "avg_cups_per_shift_hour": 3.23
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 10,
+      "active_shift_hours": 53,
+      "avg_transactions_per_shift_hour": 3.06,
+      "avg_cups_per_shift_hour": 4.19
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 11,
+      "active_shift_hours": 53,
+      "avg_transactions_per_shift_hour": 3.36,
+      "avg_cups_per_shift_hour": 4.98
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 12,
+      "active_shift_hours": 53,
+      "avg_transactions_per_shift_hour": 4.17,
+      "avg_cups_per_shift_hour": 6.0
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 13,
+      "active_shift_hours": 53,
+      "avg_transactions_per_shift_hour": 4.04,
+      "avg_cups_per_shift_hour": 5.64
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 14,
+      "active_shift_hours": 53,
+      "avg_transactions_per_shift_hour": 2.96,
+      "avg_cups_per_shift_hour": 4.32
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 15,
+      "active_shift_hours": 97,
+      "avg_transactions_per_shift_hour": 3.41,
+      "avg_cups_per_shift_hour": 5.03
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 16,
+      "active_shift_hours": 97,
+      "avg_transactions_per_shift_hour": 4.71,
+      "avg_cups_per_shift_hour": 6.76
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 17,
+      "active_shift_hours": 97,
+      "avg_transactions_per_shift_hour": 5.09,
+      "avg_cups_per_shift_hour": 7.12
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 18,
+      "active_shift_hours": 97,
+      "avg_transactions_per_shift_hour": 5.16,
+      "avg_cups_per_shift_hour": 7.74
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekday",
+      "hour": 19,
+      "active_shift_hours": 53,
+      "avg_transactions_per_shift_hour": 4.32,
+      "avg_cups_per_shift_hour": 6.42
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 9,
+      "active_shift_hours": 19,
+      "avg_transactions_per_shift_hour": 2.95,
+      "avg_cups_per_shift_hour": 3.95
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 10,
+      "active_shift_hours": 19,
+      "avg_transactions_per_shift_hour": 2.68,
+      "avg_cups_per_shift_hour": 4.05
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 11,
+      "active_shift_hours": 19,
+      "avg_transactions_per_shift_hour": 4.0,
+      "avg_cups_per_shift_hour": 6.11
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 12,
+      "active_shift_hours": 19,
+      "avg_transactions_per_shift_hour": 4.0,
+      "avg_cups_per_shift_hour": 5.58
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 13,
+      "active_shift_hours": 19,
+      "avg_transactions_per_shift_hour": 4.0,
+      "avg_cups_per_shift_hour": 6.63
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 14,
+      "active_shift_hours": 19,
+      "avg_transactions_per_shift_hour": 2.89,
+      "avg_cups_per_shift_hour": 4.05
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 15,
+      "active_shift_hours": 44,
+      "avg_transactions_per_shift_hour": 3.68,
+      "avg_cups_per_shift_hour": 5.27
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 16,
+      "active_shift_hours": 44,
+      "avg_transactions_per_shift_hour": 5.36,
+      "avg_cups_per_shift_hour": 8.14
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 17,
+      "active_shift_hours": 44,
+      "avg_transactions_per_shift_hour": 5.59,
+      "avg_cups_per_shift_hour": 8.27
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 18,
+      "active_shift_hours": 44,
+      "avg_transactions_per_shift_hour": 5.73,
+      "avg_cups_per_shift_hour": 8.73
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "zone_type": "komersial_kuliner",
+      "day_type": "weekend",
+      "hour": 19,
+      "active_shift_hours": 44,
+      "avg_transactions_per_shift_hour": 4.5,
+      "avg_cups_per_shift_hour": 6.14
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 8,
+      "active_shift_hours": 11,
+      "avg_transactions_per_shift_hour": 2.82,
+      "avg_cups_per_shift_hour": 4.18
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 9,
+      "active_shift_hours": 11,
+      "avg_transactions_per_shift_hour": 3.18,
+      "avg_cups_per_shift_hour": 5.0
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 10,
+      "active_shift_hours": 11,
+      "avg_transactions_per_shift_hour": 2.36,
+      "avg_cups_per_shift_hour": 4.09
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 11,
+      "active_shift_hours": 11,
+      "avg_transactions_per_shift_hour": 1.27,
+      "avg_cups_per_shift_hour": 1.73
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 12,
+      "active_shift_hours": 11,
+      "avg_transactions_per_shift_hour": 1.27,
+      "avg_cups_per_shift_hour": 1.64
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 13,
+      "active_shift_hours": 11,
+      "avg_transactions_per_shift_hour": 1.55,
+      "avg_cups_per_shift_hour": 2.0
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 14,
+      "active_shift_hours": 11,
+      "avg_transactions_per_shift_hour": 1.18,
+      "avg_cups_per_shift_hour": 1.73
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 15,
+      "active_shift_hours": 32,
+      "avg_transactions_per_shift_hour": 2.09,
+      "avg_cups_per_shift_hour": 3.06
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 16,
+      "active_shift_hours": 32,
+      "avg_transactions_per_shift_hour": 2.44,
+      "avg_cups_per_shift_hour": 3.78
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 17,
+      "active_shift_hours": 32,
+      "avg_transactions_per_shift_hour": 3.12,
+      "avg_cups_per_shift_hour": 4.44
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekday",
+      "hour": 18,
+      "active_shift_hours": 32,
+      "avg_transactions_per_shift_hour": 2.19,
+      "avg_cups_per_shift_hour": 3.5
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 7,
+      "active_shift_hours": 25,
+      "avg_transactions_per_shift_hour": 1.68,
+      "avg_cups_per_shift_hour": 2.4
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 8,
+      "active_shift_hours": 33,
+      "avg_transactions_per_shift_hour": 2.97,
+      "avg_cups_per_shift_hour": 4.03
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 9,
+      "active_shift_hours": 33,
+      "avg_transactions_per_shift_hour": 4.12,
+      "avg_cups_per_shift_hour": 5.79
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 10,
+      "active_shift_hours": 33,
+      "avg_transactions_per_shift_hour": 3.21,
+      "avg_cups_per_shift_hour": 4.27
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 11,
+      "active_shift_hours": 33,
+      "avg_transactions_per_shift_hour": 2.52,
+      "avg_cups_per_shift_hour": 3.76
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 12,
+      "active_shift_hours": 8,
+      "avg_transactions_per_shift_hour": 1.62,
+      "avg_cups_per_shift_hour": 2.38
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 13,
+      "active_shift_hours": 8,
+      "avg_transactions_per_shift_hour": 2.0,
+      "avg_cups_per_shift_hour": 3.62
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 14,
+      "active_shift_hours": 8,
+      "avg_transactions_per_shift_hour": 0.88,
+      "avg_cups_per_shift_hour": 1.0
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 15,
+      "active_shift_hours": 8,
+      "avg_transactions_per_shift_hour": 2.25,
+      "avg_cups_per_shift_hour": 4.25
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 16,
+      "active_shift_hours": 8,
+      "avg_transactions_per_shift_hour": 2.38,
+      "avg_cups_per_shift_hour": 3.25
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 17,
+      "active_shift_hours": 8,
+      "avg_transactions_per_shift_hour": 4.25,
+      "avg_cups_per_shift_hour": 5.75
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "zone_type": "pasar_perumahan",
+      "day_type": "weekend",
+      "hour": 18,
+      "active_shift_hours": 8,
+      "avg_transactions_per_shift_hour": 2.25,
+      "avg_cups_per_shift_hour": 4.12
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 9,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 3.55,
+      "avg_cups_per_shift_hour": 5.4
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 10,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 5.54,
+      "avg_cups_per_shift_hour": 8.0
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 11,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 7.46,
+      "avg_cups_per_shift_hour": 12.25
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 12,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 7.57,
+      "avg_cups_per_shift_hour": 12.57
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 13,
+      "active_shift_hours": 65,
+      "avg_transactions_per_shift_hour": 6.18,
+      "avg_cups_per_shift_hour": 8.75
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 15,
+      "active_shift_hours": 28,
+      "avg_transactions_per_shift_hour": 2.68,
+      "avg_cups_per_shift_hour": 3.93
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 16,
+      "active_shift_hours": 28,
+      "avg_transactions_per_shift_hour": 3.93,
+      "avg_cups_per_shift_hour": 5.86
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 17,
+      "active_shift_hours": 28,
+      "avg_transactions_per_shift_hour": 4.29,
+      "avg_cups_per_shift_hour": 6.29
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 18,
+      "active_shift_hours": 28,
+      "avg_transactions_per_shift_hour": 2.0,
+      "avg_cups_per_shift_hour": 2.93
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekday",
+      "hour": 19,
+      "active_shift_hours": 28,
+      "avg_transactions_per_shift_hour": 1.25,
+      "avg_cups_per_shift_hour": 1.96
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekend",
+      "hour": 9,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.0,
+      "avg_cups_per_shift_hour": 1.5
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekend",
+      "hour": 10,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.0,
+      "avg_cups_per_shift_hour": 1.67
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekend",
+      "hour": 11,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.5,
+      "avg_cups_per_shift_hour": 2.67
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekend",
+      "hour": 12,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.67,
+      "avg_cups_per_shift_hour": 2.5
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekend",
+      "hour": 13,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 0.67,
+      "avg_cups_per_shift_hour": 1.0
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekend",
+      "hour": 14,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.33,
+      "avg_cups_per_shift_hour": 1.67
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "zone_type": "kampus",
+      "day_type": "weekend",
+      "hour": 15,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 0.5,
+      "avg_cups_per_shift_hour": 0.5
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 8,
+      "active_shift_hours": 49,
+      "avg_transactions_per_shift_hour": 4.29,
+      "avg_cups_per_shift_hour": 6.65
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 9,
+      "active_shift_hours": 49,
+      "avg_transactions_per_shift_hour": 4.86,
+      "avg_cups_per_shift_hour": 7.59
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 10,
+      "active_shift_hours": 49,
+      "avg_transactions_per_shift_hour": 4.29,
+      "avg_cups_per_shift_hour": 6.27
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 11,
+      "active_shift_hours": 49,
+      "avg_transactions_per_shift_hour": 3.71,
+      "avg_cups_per_shift_hour": 5.82
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 12,
+      "active_shift_hours": 49,
+      "avg_transactions_per_shift_hour": 6.08,
+      "avg_cups_per_shift_hour": 9.71
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 13,
+      "active_shift_hours": 49,
+      "avg_transactions_per_shift_hour": 4.43,
+      "avg_cups_per_shift_hour": 7.08
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 14,
+      "active_shift_hours": 49,
+      "avg_transactions_per_shift_hour": 3.14,
+      "avg_cups_per_shift_hour": 4.47
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 15,
+      "active_shift_hours": 83,
+      "avg_transactions_per_shift_hour": 3.18,
+      "avg_cups_per_shift_hour": 4.77
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 16,
+      "active_shift_hours": 83,
+      "avg_transactions_per_shift_hour": 4.69,
+      "avg_cups_per_shift_hour": 7.05
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 17,
+      "active_shift_hours": 83,
+      "avg_transactions_per_shift_hour": 6.05,
+      "avg_cups_per_shift_hour": 9.28
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 18,
+      "active_shift_hours": 34,
+      "avg_transactions_per_shift_hour": 6.12,
+      "avg_cups_per_shift_hour": 8.0
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekday",
+      "hour": 19,
+      "active_shift_hours": 34,
+      "avg_transactions_per_shift_hour": 4.71,
+      "avg_cups_per_shift_hour": 7.53
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekend",
+      "hour": 14,
+      "active_shift_hours": 27,
+      "avg_transactions_per_shift_hour": 4.33,
+      "avg_cups_per_shift_hour": 5.85
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekend",
+      "hour": 15,
+      "active_shift_hours": 42,
+      "avg_transactions_per_shift_hour": 4.33,
+      "avg_cups_per_shift_hour": 6.62
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekend",
+      "hour": 16,
+      "active_shift_hours": 42,
+      "avg_transactions_per_shift_hour": 5.38,
+      "avg_cups_per_shift_hour": 8.02
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekend",
+      "hour": 17,
+      "active_shift_hours": 42,
+      "avg_transactions_per_shift_hour": 7.24,
+      "avg_cups_per_shift_hour": 10.45
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekend",
+      "hour": 18,
+      "active_shift_hours": 42,
+      "avg_transactions_per_shift_hour": 6.98,
+      "avg_cups_per_shift_hour": 9.88
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekend",
+      "hour": 19,
+      "active_shift_hours": 42,
+      "avg_transactions_per_shift_hour": 6.31,
+      "avg_cups_per_shift_hour": 10.43
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "zone_type": "perkantoran_ruang_publik",
+      "day_type": "weekend",
+      "hour": 20,
+      "active_shift_hours": 42,
+      "avg_transactions_per_shift_hour": 6.19,
+      "avg_cups_per_shift_hour": 8.57
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 8,
+      "active_shift_hours": 12,
+      "avg_transactions_per_shift_hour": 3.08,
+      "avg_cups_per_shift_hour": 4.83
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 9,
+      "active_shift_hours": 74,
+      "avg_transactions_per_shift_hour": 4.68,
+      "avg_cups_per_shift_hour": 6.73
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 10,
+      "active_shift_hours": 74,
+      "avg_transactions_per_shift_hour": 5.65,
+      "avg_cups_per_shift_hour": 8.2
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 11,
+      "active_shift_hours": 74,
+      "avg_transactions_per_shift_hour": 5.88,
+      "avg_cups_per_shift_hour": 8.66
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 12,
+      "active_shift_hours": 74,
+      "avg_transactions_per_shift_hour": 6.36,
+      "avg_cups_per_shift_hour": 8.66
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 13,
+      "active_shift_hours": 74,
+      "avg_transactions_per_shift_hour": 5.16,
+      "avg_cups_per_shift_hour": 7.31
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 14,
+      "active_shift_hours": 12,
+      "avg_transactions_per_shift_hour": 3.67,
+      "avg_cups_per_shift_hour": 5.67
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 15,
+      "active_shift_hours": 12,
+      "avg_transactions_per_shift_hour": 4.08,
+      "avg_cups_per_shift_hour": 6.0
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 16,
+      "active_shift_hours": 12,
+      "avg_transactions_per_shift_hour": 4.33,
+      "avg_cups_per_shift_hour": 5.17
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekday",
+      "hour": 17,
+      "active_shift_hours": 12,
+      "avg_transactions_per_shift_hour": 5.17,
+      "avg_cups_per_shift_hour": 7.5
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekend",
+      "hour": 9,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.5,
+      "avg_cups_per_shift_hour": 2.83
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekend",
+      "hour": 10,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.33,
+      "avg_cups_per_shift_hour": 2.33
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekend",
+      "hour": 11,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.83,
+      "avg_cups_per_shift_hour": 2.5
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekend",
+      "hour": 12,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.17,
+      "avg_cups_per_shift_hour": 1.33
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekend",
+      "hour": 13,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.33,
+      "avg_cups_per_shift_hour": 2.33
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekend",
+      "hour": 14,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 1.0,
+      "avg_cups_per_shift_hour": 1.33
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "zone_type": "kampus_perkantoran",
+      "day_type": "weekend",
+      "hour": 15,
+      "active_shift_hours": 6,
+      "avg_transactions_per_shift_hour": 0.83,
+      "avg_cups_per_shift_hour": 1.67
+    }
+  ],
+  "top_peak_hours_by_location": [
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "day_type": "weekday",
+      "peak_hours": [
+        {
+          "hour": 20,
+          "label": "20:00",
+          "avg_cups_per_hour": 9.26
+        },
+        {
+          "hour": 18,
+          "label": "18:00",
+          "avg_cups_per_hour": 8.88
+        },
+        {
+          "hour": 19,
+          "label": "19:00",
+          "avg_cups_per_hour": 8.71
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-01",
+      "location_name": "Outlet Kopi Sewu (Vitka Futsal Tiban)",
+      "day_type": "weekend",
+      "peak_hours": [
+        {
+          "hour": 20,
+          "label": "20:00",
+          "avg_cups_per_hour": 11.63
+        },
+        {
+          "hour": 18,
+          "label": "18:00",
+          "avg_cups_per_hour": 11.15
+        },
+        {
+          "hour": 19,
+          "label": "19:00",
+          "avg_cups_per_hour": 11.0
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "day_type": "weekday",
+      "peak_hours": [
+        {
+          "hour": 18,
+          "label": "18:00",
+          "avg_cups_per_hour": 7.74
+        },
+        {
+          "hour": 17,
+          "label": "17:00",
+          "avg_cups_per_hour": 7.12
+        },
+        {
+          "hour": 16,
+          "label": "16:00",
+          "avg_cups_per_hour": 6.76
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-02",
+      "location_name": "Tiban Centre (Jl. Gajah Mada)",
+      "day_type": "weekend",
+      "peak_hours": [
+        {
+          "hour": 18,
+          "label": "18:00",
+          "avg_cups_per_hour": 8.73
+        },
+        {
+          "hour": 17,
+          "label": "17:00",
+          "avg_cups_per_hour": 8.27
+        },
+        {
+          "hour": 16,
+          "label": "16:00",
+          "avg_cups_per_hour": 8.14
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "day_type": "weekday",
+      "peak_hours": [
+        {
+          "hour": 9,
+          "label": "09:00",
+          "avg_cups_per_hour": 5.0
+        },
+        {
+          "hour": 17,
+          "label": "17:00",
+          "avg_cups_per_hour": 4.44
+        },
+        {
+          "hour": 8,
+          "label": "08:00",
+          "avg_cups_per_hour": 4.18
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-03",
+      "location_name": "STC Sekupang (Sungai Harapan)",
+      "day_type": "weekend",
+      "peak_hours": [
+        {
+          "hour": 9,
+          "label": "09:00",
+          "avg_cups_per_hour": 5.79
+        },
+        {
+          "hour": 17,
+          "label": "17:00",
+          "avg_cups_per_hour": 5.75
+        },
+        {
+          "hour": 10,
+          "label": "10:00",
+          "avg_cups_per_hour": 4.27
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "day_type": "weekday",
+      "peak_hours": [
+        {
+          "hour": 12,
+          "label": "12:00",
+          "avg_cups_per_hour": 12.57
+        },
+        {
+          "hour": 11,
+          "label": "11:00",
+          "avg_cups_per_hour": 12.25
+        },
+        {
+          "hour": 13,
+          "label": "13:00",
+          "avg_cups_per_hour": 8.75
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-04",
+      "location_name": "Kawasan Kampus UIB (Baloi - Sei Ladi)",
+      "day_type": "weekend",
+      "peak_hours": [
+        {
+          "hour": 11,
+          "label": "11:00",
+          "avg_cups_per_hour": 2.67
+        },
+        {
+          "hour": 12,
+          "label": "12:00",
+          "avg_cups_per_hour": 2.5
+        },
+        {
+          "hour": 10,
+          "label": "10:00",
+          "avg_cups_per_hour": 1.67
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "day_type": "weekday",
+      "peak_hours": [
+        {
+          "hour": 12,
+          "label": "12:00",
+          "avg_cups_per_hour": 9.71
+        },
+        {
+          "hour": 17,
+          "label": "17:00",
+          "avg_cups_per_hour": 9.28
+        },
+        {
+          "hour": 18,
+          "label": "18:00",
+          "avg_cups_per_hour": 8.0
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-05",
+      "location_name": "Alun-Alun Engku Putri Batam Centre",
+      "day_type": "weekend",
+      "peak_hours": [
+        {
+          "hour": 17,
+          "label": "17:00",
+          "avg_cups_per_hour": 10.45
+        },
+        {
+          "hour": 19,
+          "label": "19:00",
+          "avg_cups_per_hour": 10.43
+        },
+        {
+          "hour": 18,
+          "label": "18:00",
+          "avg_cups_per_hour": 9.88
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "day_type": "weekday",
+      "peak_hours": [
+        {
+          "hour": 12,
+          "label": "12:00",
+          "avg_cups_per_hour": 8.66
+        },
+        {
+          "hour": 11,
+          "label": "11:00",
+          "avg_cups_per_hour": 8.66
+        },
+        {
+          "hour": 10,
+          "label": "10:00",
+          "avg_cups_per_hour": 8.2
+        }
+      ]
+    },
+    {
+      "location_id": "LOC-06",
+      "location_name": "Kawasan Politeknik Negeri Batam (Polibatam)",
+      "day_type": "weekend",
+      "peak_hours": [
+        {
+          "hour": 9,
+          "label": "09:00",
+          "avg_cups_per_hour": 2.83
+        },
+        {
+          "hour": 11,
+          "label": "11:00",
+          "avg_cups_per_hour": 2.5
+        },
+        {
+          "hour": 10,
+          "label": "10:00",
+          "avg_cups_per_hour": 2.33
+        }
+      ]
+    }
+  ]
+}

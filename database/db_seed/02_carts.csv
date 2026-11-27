@@ -1,0 +1,6 @@
+cart_id,cart_name,unit_type,default_mode,staff_alias,home_location_id,cup_capacity,source_status
+CRT-00,Outlet Kopi Sewu Tiban,outlet_tetap,tetap,Staf Outlet,LOC-01,120,primer_umkm
+CRT-01,Gerobak Sewu 01,gerobak_keliling,mangkal,Rider A,LOC-02,80,asumsi_armada_sintetis
+CRT-02,Gerobak Sewu 02,gerobak_keliling,keliling,Rider B,LOC-04,75,asumsi_armada_sintetis
+CRT-03,Gerobak Sewu 03,gerobak_keliling,mangkal,Rider C,LOC-05,85,asumsi_armada_sintetis
+CRT-04,Gerobak Sewu 04,gerobak_keliling,keliling,Rider D,LOC-06,75,asumsi_armada_sintetis
